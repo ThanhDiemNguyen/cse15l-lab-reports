@@ -1,6 +1,9 @@
 # ThanhDiemNguyen Lab Reports
 
-[View ThanhDiemNguyen Lab Reports on Github] (http://a.com)
+[View ThanhDiemNguyen Lab Reports on Github] (https://github.com/ThanhDiemNguyen/cse15l-lab-reports.com)
+
+
+[View ThanhDiemNguyen Lab Reports on Github](url)
 
 
 ## *Hello everyone*
@@ -21,7 +24,7 @@
 ```
 
 [Link](http://a.com)
-[Link] (http://a.com)
+[Link](http://a.com)
 
 
 
