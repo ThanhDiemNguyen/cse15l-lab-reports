@@ -14,9 +14,11 @@
 
 ---
 ```
-1.index.md
-2.update.md
-3.cse15l-lab-reports.png
+1.README.md
+2._config.yml
+3.index.md
+4.lab-report-1-week-0.md
+5.update.md
 
 ```
 
