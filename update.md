@@ -1,5 +1,5 @@
 # ThanhDiemNguyen Lab Reports
-[`View ThanhDiemNguyen Lab Reports on Github`](https://github.com/ThanhDiemNguyen/cse15l-lab-reports.com) 
+[`View ThanhDiemNguyen Lab Reports on Github`](https://github.com/ThanhDiemNguyen/cse15l-lab-reports) 
 
 
 
@@ -10,7 +10,7 @@
 [ThanhDiemNguyen](https://github.com/ThanhDiemNguyen) maintains [ThanhDiemNguyen Lab Reports](https://github.com/ThanhDiemNguyen/cse15l-lab-reports) 
 
 
-* Files on my **repository** [`cse15l-lab-reports`](https://github.com/ThanhDiemNguyen/cse15l-lab-reports.com)
+* Files on my **repository** [`cse15l-lab-reports`](https://github.com/ThanhDiemNguyen/cse15l-lab-reports)
 
 ---
 ```
