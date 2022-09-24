@@ -13,7 +13,3 @@
 
 > See my page at [`lab-report-1-week-0.md`](https://thanhdiemnguyen.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
-theme: minima
-
-This page generated using [GitHub Pages](https://pages.github.com/)
-theme by [Minima](https://github.com/jekyll/minima)
