@@ -1,9 +1,3 @@
-# ThanhDiemNguyen Lab Reports
-
----
-
-[`View ThanhDiemNguyen Lab Reports on Github`](https://github.com/ThanhDiemNguyen/cse15l-lab-reports)
-
 ## Hi everyone!
 
 *This* is my **first** file on Github.
