@@ -11,6 +11,8 @@ Go to the [`Visual Studio Code website`](https://code.visualstudio.com/), and fo
 2. Remotely Connecting
 
 I already set this up in class CSE30. So if you successfully set it up, you will log in to ieng server directly without your password like in the picture below.
+![Screen Shot 2022-09-29 at 2 18 51 PM](https://user-images.githubusercontent.com/114208205/193144698-37545443-596c-439b-a58b-bde79531dfa2.png)
+
 
 3. Trying Some Commands
 
