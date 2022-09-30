@@ -64,7 +64,7 @@
    * On your computer, run this command `$ ssh-keygen` to set up the keygen. 
      I already set this up in class CSE30, so I can not attach a screenshot of instructions at this step.
    * Coppy the keygen (the public key saved in file id_rsa.pub) to the server. 
-    `$ scp /Users/<username on your computer>/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+      `$ scp /Users/<username on your computer>/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
      Use your **username** instead of `cs15lfa22`
    * Now, you can log in to the server ieng6 without typing the password.
 
@@ -79,7 +79,7 @@
    ![Screen Shot 2022-09-29 at 8 48 15 PM](https://user-images.githubusercontent.com/114208205/193186171-6c62e10c-ac83-4538-859e-b6f8ea429e29.png)
 
    * Run *multiple commands* on the same line by **using semicolons**.
-  `$ cp WhereAmI.java; javac WhereAmI.java; java WhereAmI`
+     `$ cp WhereAmI.java; javac WhereAmI.java; java WhereAmI`
   
    <img width="571" alt="Screen Shot 2022-09-29 at 5 45 42 PM" src="https://user-images.githubusercontent.com/114208205/193185880-bfefc8ff-dece-4a36-b9b1-1ad7effd7219.png">
   
