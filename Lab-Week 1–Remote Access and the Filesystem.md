@@ -11,9 +11,7 @@
 
 **2. Remotely Connecting**
 
-   * First, open a terminal in VSCode and connect to the server ieng6.
-
-    `$ ssh cs15lfa22@ieng6.ucsd.edu`
+   * First, open a terminal in VSCode and connect to the server ieng6: `$ ssh cs15lfa22@ieng6.ucsd.edu`
 
    * Use your **username** instead of `cs15lfa22`. You will be required a password to log in your CSE15L account.
 
