@@ -17,11 +17,11 @@
 
    * Use your **username** instead of `cs15lfa22`. You will be required a password to log in your CSE15L account.
 
-   ![Screen Shot 2022-09-29 at 2 18 27 PM](https://user-images.githubusercontent.com/114208205/193174539-8e0af36d-c5c8-4416-9c1a-7e14ede672c5.png)
+     ![Screen Shot 2022-09-29 at 2 18 27 PM](https://user-images.githubusercontent.com/114208205/193174539-8e0af36d-c5c8-4416-9c1a-7e14ede672c5.png)
 
    * Next, enter your password *correctly*, you will get a message like this: 
 
-   ![Screen Shot 2022-09-29 at 2 20 45 PM](https://user-images.githubusercontent.com/114208205/193175298-f6112f84-5a54-4ee9-a746-94dd88edd63b.png)
+     ![Screen Shot 2022-09-29 at 2 20 45 PM](https://user-images.githubusercontent.com/114208205/193175298-f6112f84-5a54-4ee9-a746-94dd88edd63b.png)
 
 
 **3. Trying Some Commands**
@@ -73,15 +73,13 @@
 
 **6. Optimizing Remote Running**
 
-   * Run commands directly on the remote server.
-    `$ ssh cs15lfa22@ieng6.ucsd.edu "ls"`
+   * Run commands directly on the remote server: `$ ssh cs15lfa22@ieng6.ucsd.edu "ls"`
   
-   ![Screen Shot 2022-09-29 at 8 48 15 PM](https://user-images.githubusercontent.com/114208205/193186171-6c62e10c-ac83-4538-859e-b6f8ea429e29.png)
+      ![Screen Shot 2022-09-29 at 8 48 15 PM](https://user-images.githubusercontent.com/114208205/193186171-6c62e10c-ac83-4538-859e-b6f8ea429e29.png)
 
-   * Run *multiple commands* on the same line by **using semicolons**.
-     `$ cp WhereAmI.java; javac WhereAmI.java; java WhereAmI`
+   * Run *multiple commands* on the same line by **using semicolons**: `$ cp WhereAmI.java; javac WhereAmI.java; java WhereAmI`
   
-   <img width="571" alt="Screen Shot 2022-09-29 at 5 45 42 PM" src="https://user-images.githubusercontent.com/114208205/193185880-bfefc8ff-dece-4a36-b9b1-1ad7effd7219.png">
+     <img width="571" alt="Screen Shot 2022-09-29 at 5 45 42 PM" src="https://user-images.githubusercontent.com/114208205/193185880-bfefc8ff-dece-4a36-b9b1-1ad7effd7219.png">
   
    * **Up-arrow** on your keyboard: recall the last command that was run. 
 
