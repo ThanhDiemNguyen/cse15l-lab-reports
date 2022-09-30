@@ -26,7 +26,7 @@
 
    Try to type these commands below:
 
-   * `cd ~` and <mark style="background-color: #FFFF00">`cd`</mark> 
+   * `cd ~` and `cd`
 
      <img width="236" alt="Screen Shot 2022-09-29 at 4 18 41 PM" src="https://user-images.githubusercontent.com/114208205/193175684-d7b82364-fc44-4b70-ad68-5214ca011d76.png">
 
