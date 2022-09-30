@@ -42,9 +42,9 @@
      `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
      `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
 
-   Use your **username** instead of `cs15lfa22`.
+      Use your **username** instead of `cs15lfa22`.
  
-   <img width="557" alt="Screen Shot 2022-09-29 at 4 21 06 PM" src="https://user-images.githubusercontent.com/114208205/193176254-8745b7a9-3036-466b-8f7b-5cf4f985d7eb.png">
+      <img width="557" alt="Screen Shot 2022-09-29 at 4 21 06 PM" src="https://user-images.githubusercontent.com/114208205/193176254-8745b7a9-3036-466b-8f7b-5cf4f985d7eb.png">
 
 
 **4. Moving Files with scp**
