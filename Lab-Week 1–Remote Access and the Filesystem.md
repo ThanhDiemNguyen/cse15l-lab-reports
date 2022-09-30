@@ -38,9 +38,9 @@
 
      <img width="547" alt="Screen Shot 2022-09-29 at 4 19 14 PM" src="https://user-images.githubusercontent.com/114208205/193175972-2f842a9b-c2ee-4a7b-9649-e68744518a97.png">
      
-   * `ls <directory>` where <directory> is /home/linux/ieng6/cs15lfa22/cs15lfa22abc
-     `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
-     `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
+   * `ls <directory>` where <directory> is /home/linux/ieng6/cs15lfa22/cs15lfa22abc.
+      `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
+      `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
 
       Use your **username** instead of `cs15lfa22`.
  
