@@ -5,36 +5,36 @@ How to log into a course-specific account on ieng6
 
 **1. Installing VScode
 
-Go to the [`Visual Studio Code website`](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer
+    Go to the [`Visual Studio Code website`](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer
 
-<img width="721" alt="Screen Shot 2022-09-29 at 11 37 54 AM" src="https://user-images.githubusercontent.com/114208205/193116539-fbbb0e80-c3a5-4aae-b5d7-affa8531d98c.png">
+    <img width="721" alt="Screen Shot 2022-09-29 at 11 37 54 AM" src="https://user-images.githubusercontent.com/114208205/193116539-fbbb0e80-c3a5-4aae-b5d7-affa8531d98c.png">
 
 **2. Remotely Connecting
 
-First, open a terminal in VSCode and connect to the server ieng6 
+     * First, open a terminal in VSCode and connect to the server ieng6 
 
-`$ ssh cs15lfa22@ieng6.ucsd.edu`
+    `$ ssh cs15lfa22@ieng6.ucsd.edu`
 
-Use your **username** instead of `cs15lfa22`. You will be required a password to log in your CSE15L account.
+     * Use your **username** instead of `cs15lfa22`. You will be required a password to log in your CSE15L account.
 
-![Screen Shot 2022-09-29 at 2 18 27 PM](https://user-images.githubusercontent.com/114208205/193174539-8e0af36d-c5c8-4416-9c1a-7e14ede672c5.png)
+    ![Screen Shot 2022-09-29 at 2 18 27 PM](https://user-images.githubusercontent.com/114208205/193174539-8e0af36d-c5c8-4416-9c1a-7e14ede672c5.png)
 
-Next, enter your password *correctly*, you will get a message like this: 
+     * Next, enter your password *correctly*, you will get a message like this: 
 
-![Screen Shot 2022-09-29 at 2 20 45 PM](https://user-images.githubusercontent.com/114208205/193175298-f6112f84-5a54-4ee9-a746-94dd88edd63b.png)
+     ![Screen Shot 2022-09-29 at 2 20 45 PM](https://user-images.githubusercontent.com/114208205/193175298-f6112f84-5a54-4ee9-a746-94dd88edd63b.png)
 
 
 **3. Trying Some Commands
 
-Try to type these commands below:
+     Try to type these commands below:
 
-* `cd ~` and `cd`
+     * `cd ~` and `cd`
 
-<img width="236" alt="Screen Shot 2022-09-29 at 4 18 41 PM" src="https://user-images.githubusercontent.com/114208205/193175684-d7b82364-fc44-4b70-ad68-5214ca011d76.png">
+     <img width="236" alt="Screen Shot 2022-09-29 at 4 18 41 PM" src="https://user-images.githubusercontent.com/114208205/193175684-d7b82364-fc44-4b70-ad68-5214ca011d76.png">
 
-* `ls -lat`
+     * `ls -lat`
  
-<img width="538" alt="Screen Shot 2022-09-29 at 4 18 55 PM" src="https://user-images.githubusercontent.com/114208205/193175857-fc8faa94-f869-4120-be12-d2116f48f5c1.png">
+     <img width="538" alt="Screen Shot 2022-09-29 at 4 18 55 PM" src="https://user-images.githubusercontent.com/114208205/193175857-fc8faa94-f869-4120-be12-d2116f48f5c1.png">
 
 * `ls -a`
 
