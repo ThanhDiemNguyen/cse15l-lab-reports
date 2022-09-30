@@ -38,7 +38,7 @@
 
    * `ls -a`
 
-    <img width="547" alt="Screen Shot 2022-09-29 at 4 19 14 PM" src="https://user-images.githubusercontent.com/114208205/193175972-2f842a9b-c2ee-4a7b-9649-e68744518a97.png">
+   <img width="547" alt="Screen Shot 2022-09-29 at 4 19 14 PM" src="https://user-images.githubusercontent.com/114208205/193175972-2f842a9b-c2ee-4a7b-9649-e68744518a97.png">
 ```
    * ls <directory> where <directory> is /home/linux/ieng6/cs15lfa22/cs15lfa22abc
      cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
@@ -56,7 +56,7 @@
    * Use the command `$ scp filename serverName: <directory>` to copy a file on your workstation to a server. 
      Run this command `$ scp WhereAmI.java cs15lfa22@ieng6.ucsd.edu:~/`  Use your **username** instead of `cs15lfa22`.
   
-   <img width="573" alt="Screen Shot 2022-09-29 at 4 48 49 PM" src="https://user-images.githubusercontent.com/114208205/193184037-49b7cc5d-8fb4-417d-8de7-8794bec920ee.png">
+     <img width="573" alt="Screen Shot 2022-09-29 at 4 48 49 PM" src="https://user-images.githubusercontent.com/114208205/193184037-49b7cc5d-8fb4-417d-8de7-8794bec920ee.png">
 
 
 **5. Setting an SSH Key**
@@ -68,7 +68,7 @@
      Use your **username** instead of `cs15lfa22`
    * Now, you can log in to the server ieng6 without typing the password.
 
-   <img width="480" alt="Screen Shot 2022-09-29 at 5 25 33 PM" src="https://user-images.githubusercontent.com/114208205/193185005-fd25e657-d6cd-4812-bd8f-493b64e836f7.png">
+     <img width="480" alt="Screen Shot 2022-09-29 at 5 25 33 PM" src="https://user-images.githubusercontent.com/114208205/193185005-fd25e657-d6cd-4812-bd8f-493b64e836f7.png">
 
 
 **6. Optimizing Remote Running**
