@@ -175,12 +175,12 @@ class SearchEngine {
      ```
    
      My input1(arr) is {1 3 5 7 9} -> arr.length is 5
-     i = 0; input1[0] = newArray[4] = 0
-     i = 1; input1[1] = newArray[3] = 0 
-     i = 2; input1[2] = newArray[2] = 0 
-     i = 3; input1[3] = newArray[1] = 0 
-     i = 4; input1[4] = newArray[0] = 0 
-     return input1 = {0 0 0 0 0}
+     * i = 0; input1[0] = newArray[4] = 0
+     * i = 1; input1[1] = newArray[3] = 0 
+     * i = 2; input1[2] = newArray[2] = 0 
+     * i = 3; input1[3] = newArray[1] = 0 
+     * i = 4; input1[4] = newArray[0] = 0 
+     ->  return input1 = {0 0 0 0 0}
    
      -> This method need to assign value of *arr* to value of *newArray* and return *newArray* -> the bugs is solves.
    
@@ -196,13 +196,13 @@ class SearchEngine {
      }
      ```
      My input1(arr) is {1 3 5 7 9} -> arr.length is 5
-     i = 0 newArray[0] = input[4] = 9
-     i = 1 newArray[1] = input[3] = 7
-     i = 2 newArray[2] = input[2] = 5
-     i = 3 newArray[3] = input[1] = 3
-     i = 4 newArray[4] = input[0] = 1
+     * i = 0 newArray[0] = input[4] = 9
+     * i = 1 newArray[1] = input[3] = 7
+     * i = 2 newArray[2] = input[2] = 5
+     * i = 3 newArray[3] = input[1] = 3
+     * i = 4 newArray[4] = input[0] = 1
    
-     return newArray = {9 7 5 3 1} -> true
+     -> return newArray = {9 7 5 3 1} -> true
    
    
 
