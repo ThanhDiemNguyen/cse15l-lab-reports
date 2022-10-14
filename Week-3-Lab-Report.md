@@ -3,7 +3,6 @@
 
 ---
 ### SearchEngine.java
-
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -70,7 +69,6 @@ class SearchEngine {
     
 }
 ```
-
 ### 1. Home path:
 
    ![image](https://user-images.githubusercontent.com/114208205/195788974-d78036ab-abbf-4ea9-ae78-d0a885e73e90.png)
