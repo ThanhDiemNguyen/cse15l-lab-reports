@@ -113,7 +113,19 @@ class SearchEngine {
    ![image](https://user-images.githubusercontent.com/114208205/195813411-d637db5d-336b-4f2c-9641-28b179137842.png)
 
 
-    
+## Part 2: Bugs and teting
+
+---
+
+                        |               List Methods                  | File Methods
+     :---               |                :---:                        |             :---:        
+                        |                                             |
+                        |                                             |
+                        |                                             |
+                        |                                             |
+### 1. List Methods
+
+### 2. File Methods
 
 
 
