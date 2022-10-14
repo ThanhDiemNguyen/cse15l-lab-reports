@@ -117,15 +117,80 @@ class SearchEngine {
 
 ---
 
-                        |               List Methods                  | File Methods
-     :---               |                :---:                        |             :---:        
-                        |                                             |
-                        |                                             |
-                        |                                             |
-                        |                                             |
-### 1. List Methods
+### 1. List Methods - filter 
 
-### 2. File Methods
+   * The failure-inducing input (the code of the test)
+    
+      ![image](https://user-images.githubusercontent.com/114208205/195928877-09475af0-0e3f-411d-81f9-f84473ff60cd.png)
+     
+   * The symptom (the failing test output)
+       
+      ![image](https://user-images.githubusercontent.com/114208205/195929032-f40c0b93-37c0-4e07-aad3-4fdf43a24f50.png)
 
+   * The bug (the code fix needed)
+     ![image](https://user-images.githubusercontent.com/114208205/195938709-321cfa36-5558-448e-bac8-cedff57ebe76.png)
+     
+     Change `result.add(0,s);` to `result.add(s);`
+      
+   * Connection between the symptom and the bug
+     The symptom show the order of the list *result* is reversed. This happens because of the statement `result.add(0,s);`, which adds a new element at index 0. Since the element added later will always come before the old one -> the order of the list is reversed.
+     In my test, the input is [apple app pineapple]. The method filter will check the string "app" with each elements in the list. Starting with the index 0, it's true -> add "apple" to the list *result* at the index 0. Then, similarly add "app" to the list *result* at the index 0 -> the index of "apple" is 1. Finally, add "pineapple" to the list *result* at the index 0 -> the index of "app" is 1 and "apple" is 2. The output for this method is [pineapple app apple]. But the expected output is [apple app pineapple]. 
+     So, this method need to change to add(string) without index -> the bugs is solved.
+### 2. Array Methods
+   * The failure-inducing input (the code of the test)
+   
+   <img width="146" alt="image" src="https://user-images.githubusercontent.com/114208205/195942202-fd643cdd-b072-4eee-855b-8e1e35355e11.png">
+
+   * The symptom (the failing test output)
+   
+   <img width="146" alt="image" src="https://user-images.githubusercontent.com/114208205/195942474-49cf07e3-7a48-4696-ad52-aff1e9dca673.png">
+
+   * The bug (the code fix needed)
+   
+   <img width="146" alt="image" src="https://user-images.githubusercontent.com/114208205/195942573-877ea987-f304-471c-8008-363a85bcb5ce.png">
+    Change `arr[i] = newArray[arr.length - i - 1];` to `newArray[i] = arr[arr.length - i - 1];` and return *newArray* instead of *arr*
+   * Connection between the symptom and the bug
+   This symptom is the newArray is {0 0 0 0 0}, but the expected one is {9,7,5,3,1}.
+   Check the original code 
+   ```
+   static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return ;
+   }
+   ```
+   
+   My input1(arr) is {1 3 5 7 9} -> arr.length is 5
+   i = 0; input1[0] = newArray[4] = 0
+   i = 1; input1[1] = newArray[3] = 0 
+   i = 2; input1[2] = newArray[2] = 0 
+   i = 3; input1[3] = newArray[1] = 0 
+   i = 4; input1[4] = newArray[0] = 0 
+   return input1 = {0 0 0 0 0}
+   
+   -> This method need to assign value of *arr* to value of *newArray* and return *newArray* -> the bugs is solves.
+   
+   Check the new code:
+   ```
+   static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+   }
+   ```
+   My input1(arr) is {1 3 5 7 9} -> arr.length is 5
+   i = 0 newArray[0] = input[4] = 9
+   i = 1 newArray[1] = input[3] = 7
+   i = 2 newArray[2] = input[2] = 5
+   i = 3 newArray[3] = input[1] = 3
+   i = 4 newArray[4] = input[0] = 1
+   
+   return newArray = {9 7 5 3 1} -> true
+   
+   
 
 
