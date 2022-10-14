@@ -2,7 +2,7 @@
 ## Part 1: Simplest Search Engine Web server
 
 ---
-* **SearchEngine.java**
+### SearchEngine.java
 
 ```
 import java.io.IOException;
@@ -70,8 +70,6 @@ class SearchEngine {
     
 }
 ```
-
-
 
 ### 1. Home path:
 
