@@ -76,13 +76,13 @@ class SearchEngine {
 **1. Home path:** 
 
    ![image](https://user-images.githubusercontent.com/114208205/195788974-d78036ab-abbf-4ea9-ae78-d0a885e73e90.png)
- * This is the home part if the path is "/". The method `**public String handleRequest(URI url)**` is called on the first case `if (url.getPath().equals("/"))` - the values of the relevant arguments. If those values change, the program will check other cases of this method and return the corresponding result.
+ * This is the home part if the path is "/". The method `public String handleRequest(URI url)` is called on the first case `if (url.getPath().equals("/"))` - the values of the relevant arguments. If those values change, the program will check other cases of this method and return the corresponding result.
    
 **2. Path for Adding**
 
    ![image](https://user-images.githubusercontent.com/114208205/195801696-002e2ae5-d67c-4514-83b3-9e4cd22eac09.png)
    ![image](https://user-images.githubusercontent.com/114208205/195801776-f8028e30-9ca7-4f01-8e72-b81bc4e27424.png)
- * This is the adding path if the path is "/add". The method `**public String handleRequest(URI url)**` is called.
+ * This is the adding path if the path is "/add". The method `public String handleRequest(URI url)` is called.
  * Detailly focussing this code:
     <img width="568" alt="image" src="https://user-images.githubusercontent.com/114208205/195805172-3df461a2-3766-4b81-97ad-ede7e7ea9aef.png">
  * If the **url** contains "add", the program will add the string after string "=" to the **list** (created in class Handler).
@@ -94,7 +94,7 @@ class SearchEngine {
 
    ![image](https://user-images.githubusercontent.com/114208205/195802295-182f3cf5-9b22-4acf-a336-a94e6b735a57.png)
    
-  * This is the searching path if the path is "/search". The method `**public String handleRequest(URI url)**` and `private List<String> SearchEngine(String search, List<String> list)` are called.
+  * This is the searching path if the path is "/search". The method `public String handleRequest(URI url)` and `private List<String> SearchEngine(String search, List<String> list)` are called.
   * If the **url** contains "search", the program will search the string after string "=" in the list.
   * For searching, we use the method **SearchEngine**. The method **SearchEngine** take two arguments, including a Sring (input need to search) and a List (contains the added string from the adding path).
   * We call *SearchEngine(parameters[1], list)*. In this screenshot,the string "app" (*parameters[1]*) will be searched in the list [pineapple apple] (*list*). Both strings *pineapple* and *apple* contain the string *app*, so the result wwil be `pineapple apple`
