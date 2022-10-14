@@ -145,22 +145,22 @@ class SearchEngine {
 
    * The failure-inducing input (the code of the test)
    
-     <img width="146" alt="image" src="https://user-images.githubusercontent.com/114208205/195942202-fd643cdd-b072-4eee-855b-8e1e35355e11.png">
+     ![image](https://user-images.githubusercontent.com/114208205/195947374-5c20de79-c1bf-4b2c-8b4f-6033c4790b3f.png)
 
    * The symptom (the failing test output)
    
-     <img width="146" alt="image" src="https://user-images.githubusercontent.com/114208205/195942474-49cf07e3-7a48-4696-ad52-aff1e9dca673.png">
+     ![image](https://user-images.githubusercontent.com/114208205/195947443-c45f5063-ff0f-4df8-8b6d-2068b32baa63.png)
 
    * The bug (the code fix needed)
    
-     <img width="146" alt="image" src="https://user-images.githubusercontent.com/114208205/195942573-877ea987-f304-471c-8008-363a85bcb5ce.png">
-   
+     ![image](https://user-images.githubusercontent.com/114208205/195947520-9b1ec4a2-d963-4c54-8d3c-f9ff8a50549d.png)
+
      Change `arr[i] = newArray[arr.length - i - 1];` to `newArray[i] = arr[arr.length - i - 1];` and return *newArray* instead of *arr*
    
    * Connection between the symptom and the bug
    
      This symptom is the newArray is {0 0 0 0 0}, but the expected one is {9,7,5,3,1}.
-     Check the original code 
+     Check the original code:
      
       ```
      static int[] reversed(int[] arr) {
