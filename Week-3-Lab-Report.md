@@ -70,6 +70,9 @@ class SearchEngine {
     
 }
 ```
+
+
+
 **1. Home path:** 
 
    ![image](https://user-images.githubusercontent.com/114208205/195788974-d78036ab-abbf-4ea9-ae78-d0a885e73e90.png)
@@ -87,7 +90,7 @@ class SearchEngine {
  * After run two urls above, the **list** will be [pineapple apple]   
  * In this path, we only add string to the list, so the program will return nothing like two screenshots above.
   
-**3. Path for Searching*
+**3. Path for Searching**
 
    ![image](https://user-images.githubusercontent.com/114208205/195802295-182f3cf5-9b22-4acf-a336-a94e6b735a57.png)
    
