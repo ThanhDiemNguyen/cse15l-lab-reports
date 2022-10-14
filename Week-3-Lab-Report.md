@@ -69,10 +69,6 @@ class SearchEngine {
     
 }
 ```
-
-
-
-
 ### 1. Home path
 
    ![image](https://user-images.githubusercontent.com/114208205/195788974-d78036ab-abbf-4ea9-ae78-d0a885e73e90.png)
@@ -143,7 +139,7 @@ class SearchEngine {
      In my test, the input is [apple app pineapple]. The method filter will check the string "app" with each elements in the list. Starting with the index 0, it's true -> add "apple" to the list *result* at the index 0. Then, similarly add "app" to the list *result* at the index 0 -> the index of "apple" is 1. Finally, add "pineapple" to the list *result* at the index 0 -> the index of "app" is 1 and "apple" is 2. The output for this method is [pineapple app apple]. But the expected output is [apple app pineapple]. 
      So, this method need to change to add(string) without index -> the bugs is solved.
      
-### 2. Array Methods
+### 2. Array Methods - reversed
 
    * The failure-inducing input (the code of the test)
    
