@@ -7,9 +7,9 @@
 
 ### 1. -name option - Finding Files by Name
 	
-	```
-	$ find . -name chapter-1.txt
-	```
+```
+$ find . -name chapter-1.txt
+```
 	
    Output: 
    ```
@@ -18,30 +18,30 @@
 	 
    This command wwil find all the files that have the name "chapter-1.txt" in the current working directory (be shown "."). This directory can be changed to anywhere you want.
    For example, if you want to find a file starting with the string "pmed.002027" in name in the file "plos", you can run this command below.
-   	```
-	$ find ./plos -name pmed.002027*.txt
-   	```
+   ```
+   $ find ./plos -name pmed.002027*.txt
+   ```
    Output:
    
-   	```
-  	 ./plos/pmed.0020273.txt
-   	./plos/pmed.0020272.txt
-   	./plos/pmed.0020275.txt
-   	./plos/pmed.0020274.txt
-  	 ./plos/pmed.0020278.txt
-  	 ```
+   ```
+   ./plos/pmed.0020273.txt
+   ./plos/pmed.0020272.txt
+   ./plos/pmed.0020275.txt
+   ./plos/pmed.0020274.txt
+   ./plos/pmed.0020278.txt
+   ```
    
    Or if you don't remember exactly file name (uppercase or lowercase), you can use **-iname** option instead.
    
-   	```
-	$ find ./government/Media -iname farm_workers.txt
-	```
+   ```
+   $ find ./government/Media -iname farm_workers.txt
+   ```
 	
    Output: 
    
-   	```
-   	./government/Media/Farm_workers.txt
-  	 ```
+   ```
+   ./government/Media/Farm_workers.txt
+   ```
 
 ### 2. -type option - Finding Files by Type
 
@@ -54,53 +54,52 @@
 	```
 	
    Output: 
-   
- 	  ```
-  	 .
-  	 ./government
-   	./government/About_LSC
-  	 ./government/Env_Prot_Agen
-   	./government/Alcohol_Problems
-   	./government/Gen_Account_Office
-   	./government/Post_Rate_Comm
-  	 ./government/Media
-   	./plos
-   	./biomed
-   	./911report
-   	```
+   ```
+   .
+   ./government
+   ./government/About_LSC
+   ./government/Env_Prot_Agen
+   ./government/Alcohol_Problems
+   ./government/Gen_Account_Office
+   ./government/Post_Rate_Comm
+   ./government/Media
+   ./plos
+   ./biomed
+   ./911report
+   ```
 	
    If you want to find a directory with the name "Media", run this command: 
    
-  	 ```
-  	 $ find . -type d -name Media
-  	 ```
+   ```
+   $ find . -type d -name Media
+   ```
 	 
    Or this one if you don't remember exactly dir name, run this one:
    
-  	 ```
-  	 $ find . -type d -iname media
-   	```
+   ```
+   $ find . -type d -iname media
+   ```
 	
    Output:
    
-  	 ```
-  	 ./government/Media
-  	 ```
+   ```
+   ./government/Media
+   ```
 	 
 * -type f: for files
 	
    If you want to find a file starting with "tech" in name, you can try this command.
    
-	```
-	$ find . -type f -name tech*.txt
-	```
+   ```
+   $ find . -type f -name tech*.txt
+   ```
 	
    Output:
-  	 
-  	 ```
-  	 ./government/Env_Prot_Agen/tech_sectiong.txt
-  	 ./government/Env_Prot_Agen/tech_adden.txt
-  	 ```
+   
+   ```
+   ./government/Env_Prot_Agen/tech_sectiong.txt
+   ./government/Env_Prot_Agen/tech_adden.txt
+   ```
 
 ### 3. -depth - Finding files by depth 
 
