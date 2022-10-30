@@ -12,10 +12,9 @@
 	```
 	
    Output: 
-   
-   	```
-   	./911report/chapter-1.txt
-  	 ```
+   ```
+   ./911report/chapter-1.txt
+   ```
 	 
    This command wwil find all the files that have the name "chapter-1.txt" in the current working directory (be shown "."). This directory can be changed to anywhere you want.
    For example, if you want to find a file starting with the string "pmed.002027" in name in the file "plos", you can run this command below.
