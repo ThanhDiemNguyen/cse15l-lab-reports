@@ -11,7 +11,7 @@
 	$ find . -name chapter-1.txt
 	```
 	
-   The result will be: 
+   Output: 
    
    	```
    	./911report/chapter-1.txt
