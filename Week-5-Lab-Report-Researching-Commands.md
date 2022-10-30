@@ -6,9 +6,9 @@
 **!!! Assumming that: the current working directory is ./technical for all codes below.**
 
 ### 1. -name option - Finding Files by Name
-	
+
 ```
-$ find . -name chapter-1.txt
+  $ find . -name chapter-1.txt
 ```
 	
    Output: 
