@@ -45,7 +45,7 @@
 
 ### 2. -type option - Finding Files by Type
 
-* -type d: for directories
+* **-type d**: for directories
 	
 	To find all directories in the current dir, run this command:
 	
@@ -86,7 +86,7 @@
    ./government/Media
    ```
 	 
-* -type f: for files
+* **-type f**: for files
 	
    If you want to find a file starting with "tech" in name, you can try this command.
    
