@@ -107,11 +107,11 @@
 	
   ![image](https://user-images.githubusercontent.com/114208205/198870569-b5822922-d750-45a3-bf36-1b3e2f1d07ea.png)
 
-* -maxdepth n: Find the file under the current directory and n level down.
+* **-maxdepth n**: Find the file under the current directory and n level down.
 
 	To file a file "rr74.txt" have path `./biomed/rr74.txt` with 
 	
-	* Maxdepth = 2
+	- Maxdepth = 2
 	
 	```
 	$ find . -maxdepth 2 -name rr74.txt
@@ -123,7 +123,7 @@
 	./biomed/rr74.txt
 	```
 	
-	* Maxdepth = 1
+	- Maxdepth = 1
 	
 	```
 	$ find . -maxdepth 1 -name rr74.txt
@@ -131,10 +131,10 @@
 	
 	Output: nothing bc the file "rr74.tzt" has level 2 from the current dir and maxdepth is 1 (find in depth 1 and 0(current dir))
 	
-* -mindepth n: Find the file under the current directory and n level up.
+* **-mindepth n**: Find the file under the current directory and n level up.
 
 	To find a file "rr74.txt" has the path `./biomed/rr74.txt` with
-	* Mindepth = 0
+	- Mindepth = 0
 	
 	```
 	$ find .  -name rr74.txt
@@ -146,7 +146,7 @@
 	./biomed/rr74.txt
 	```
 
-	* Mindepth = 3 
+	- Mindepth = 3 
 	
 	```
 	find . -mindepth 3 -name rr74.txt
