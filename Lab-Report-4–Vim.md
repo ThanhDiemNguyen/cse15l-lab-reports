@@ -53,17 +53,17 @@ Similarly continue:
 
   Saving the changes.
   
-  Also, by coming up with google, we find use **:%s/<search_term>/<replace_term>/g** to search and replace in Vim, so the way `:%s/start/base/g` is a better way than my way. But it will lead to some problems when replace the "start" (Server.start()) in class DocSearchServer. 
+* Also, by coming up with google, we find use **:%s/<search_term>/<replace_term>/g** to search and replace in Vim, so the way `:%s/start/base/g` is a better way than my way. But it will lead to some problems when replace the "start" (Server.start()) in class DocSearchServer. 
   
    Details:
   
-  ![image](https://user-images.githubusercontent.com/114208205/201463458-69d48f65-0ee0-4287-9e8a-75df9c471553.png)
+    ![image](https://user-images.githubusercontent.com/114208205/201463458-69d48f65-0ee0-4287-9e8a-75df9c471553.png)
   
   -> need to change the word "Server.base" to "Server.start" in file DocSearchServer.java using `:%s/Server.base/Server.start/g`
   
- ![image](https://user-images.githubusercontent.com/114208205/201468381-7007b6e7-f114-4d86-bdae-db9ec717ffd6.png)
+    ![image](https://user-images.githubusercontent.com/114208205/201468381-7007b6e7-f114-4d86-bdae-db9ec717ffd6.png)
  
-![image](https://user-images.githubusercontent.com/114208205/201468416-1bf17bdd-a476-40ed-b5c9-e32676e5d95c.png)
+    ![image](https://user-images.githubusercontent.com/114208205/201468416-1bf17bdd-a476-40ed-b5c9-e32676e5d95c.png)
 
 
 
