@@ -53,7 +53,7 @@ Similarly continue:
 
   Saving the changes.
   
-* Also, by coming up with google, we find use **:%s/<search_term>/<replace_term>/g** to search and replace in Vim, so the way `:%s/start/base/g` is a better way than my way. But it will lead to some problems when replace the "start" (Server.start()) in class DocSearchServer. 
+* Also, by coming up with google, we find use `:%s/<search_term>/<replace_term>/g` to search and replace in Vim, so the way `:%s/start/base/g` is a better way than my way. But it will lead to some problems when replace the "start" (Server.start()) in class DocSearchServer. 
   
    Details:
   
