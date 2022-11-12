@@ -1,4 +1,4 @@
-# Lab Report 4 –  Vim
+# Lab Report 4 – Vim
 ## Part 1 - Changing the name of the "start" parameter and its uses to "base"
 
 ---
