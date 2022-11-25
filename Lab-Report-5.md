@@ -60,17 +60,17 @@ echo "Grade: $GRADE/2"
 ```
 ## 2. Screenshots
 
-   [list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3)
+   * [list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3)
 
-   <img width="727" alt="image" src="https://user-images.githubusercontent.com/114208205/203740850-cd1320b8-745a-4957-93f1-2d9711bcf338.png">
+     <img width="727" alt="image" src="https://user-images.githubusercontent.com/114208205/203740850-cd1320b8-745a-4957-93f1-2d9711bcf338.png">
 
-   [list-methods-corrected](https://github.com/ucsd-cse15l-f22/list-methods-corrected)
+   * [list-methods-corrected](https://github.com/ucsd-cse15l-f22/list-methods-corrected)
 
-   <img width="766" alt="image" src="https://user-images.githubusercontent.com/114208205/203741140-35bdf446-a5f6-4dfa-a071-32ee931f4c95.png">
+     <img width="766" alt="image" src="https://user-images.githubusercontent.com/114208205/203741140-35bdf446-a5f6-4dfa-a071-32ee931f4c95.png">
 
-   [list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list-methods-compile-error)
+   * [list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list-methods-compile-error)
 
-   <img width="798" alt="image" src="https://user-images.githubusercontent.com/114208205/203931705-e717b87c-da88-4926-9817-2c592ffe7fdd.png">
+     <img width="798" alt="image" src="https://user-images.githubusercontent.com/114208205/203931705-e717b87c-da88-4926-9817-2c592ffe7fdd.png">
 
    <img width="815" alt="image" src="https://user-images.githubusercontent.com/114208205/203742017-bf7e1d28-bb64-4c36-8ce8-bf231b2b6fa2.png">
    <img width="768" alt="image" src="https://user-images.githubusercontent.com/114208205/203742204-8c65754d-6876-44d5-85c1-cd8d706de0d9.png">
@@ -78,9 +78,9 @@ echo "Grade: $GRADE/2"
 
 ## 3. Trace: 
 
-   I trace with the link [list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3).
+  *  I trace with the link [list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3).
       
-   * **Line 9**: `rm -rf student-submission`
+     * **Line 9**: `rm -rf student-submission`
   
         Tracing by:
         ```
