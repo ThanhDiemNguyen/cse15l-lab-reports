@@ -215,7 +215,7 @@ echo "Grade: $GRADE/2"
         echo "Failed test filter."
     fi
     ```
-    The condition is true because there exists the word "filter" in the out.txt (standard output of line 34). 
+    The condition is true because there exists the word "filter" in the out.txt (standard output of line 34). All line from 41-45 run.
     
  * **Line 46-50**: If-statement 
     ```
@@ -225,7 +225,7 @@ echo "Grade: $GRADE/2"
         echo "Failed test merge."
     fi
     ```
-    The condition is true because there exists the word "merge" in the out.txt (standard output of line 34).
+    The condition is true because there exists the word "merge" in the out.txt (standard output of line 34). All line from 46-50 run.
     
  * **Line 52**: `let GRADE-=ERROR`
  
