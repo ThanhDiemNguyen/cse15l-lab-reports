@@ -77,7 +77,7 @@ echo "Grade: $GRADE/2"
     <img width="758" alt="image" src="https://user-images.githubusercontent.com/114208205/203742427-be742189-9383-499f-a105-57f002280679.png">
 
 ## 3. Trace 
-
+   
    I trace with the link [list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3)
  
    * **Line 9**: `rm -rf student-submission`
