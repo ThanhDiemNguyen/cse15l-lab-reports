@@ -70,7 +70,7 @@ echo "Grade: $GRADE/2"
 
 [list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list-methods-compile-error)
 
-<img width="790" alt="image" src="https://user-images.githubusercontent.com/114208205/203741675-972bc121-4d03-4c5a-b1cc-b55081d1921.png">
+<img width="798" alt="image" src="https://user-images.githubusercontent.com/114208205/203931705-e717b87c-da88-4926-9817-2c592ffe7fdd.png">
 
 <img width="815" alt="image" src="https://user-images.githubusercontent.com/114208205/203742017-bf7e1d28-bb64-4c36-8ce8-bf231b2b6fa2.png">
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/114208205/203742204-8c65754d-6876-44d5-85c1-cd8d706de0d9.png">
@@ -127,7 +127,7 @@ echo "Grade: $GRADE/2"
         exit 1
     fi
     ```
-    The condition is true because it prints "Correct file submitted." as screenshot in part 2 shown. Therefore, line 16-18 does not run. 
+    The condition is true because there exists file ListExamples.java in student-submission dir. Therefore, line 16-18 does not run. 
     
  * **Line 22**: `cp student-submission/ListExamples.java`
  
@@ -175,7 +175,7 @@ echo "Grade: $GRADE/2"
         exit 1
     fi
     ```
-    The condition is false because it does not print "Compile error!" as screenshot in part 2 shown. Therefore, line 28-30 does not run. 
+    The condition is false because the return code in line 26 is 0. Therefore, line 28-30 does not run. 
     
  * **Line 34**: `java -cp .:$CPath org.junit.runner.JUnitCore TestListExamples`
   
