@@ -72,10 +72,6 @@ echo "Grade: $GRADE/2"
 
      <img width="798" alt="image" src="https://user-images.githubusercontent.com/114208205/203931705-e717b87c-da88-4926-9817-2c592ffe7fdd.png">
 
-   <img width="815" alt="image" src="https://user-images.githubusercontent.com/114208205/203742017-bf7e1d28-bb64-4c36-8ce8-bf231b2b6fa2.png">
-   <img width="768" alt="image" src="https://user-images.githubusercontent.com/114208205/203742204-8c65754d-6876-44d5-85c1-cd8d706de0d9.png">
-    <img width="758" alt="image" src="https://user-images.githubusercontent.com/114208205/203742427-be742189-9383-499f-a105-57f002280679.png">
-
 ## 3. Trace: 
 
   *  I trace with the link [list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3).
